@@ -36,12 +36,12 @@ export default {
     handleScroll() {
       const scrollTop =
         document.documentElement.scrollTop || document.body.scrollTop;
-      this.visible = scrollTop > 100; // Показваме бутона след скролиране на първите 100 пиксела
+      this.visible = scrollTop > 100;
     },
     scrollToTop() {
       window.scrollTo({
         top: 0,
-        behavior: "smooth", // За плавно скролиране
+        behavior: "smooth",
       });
     },
   },
