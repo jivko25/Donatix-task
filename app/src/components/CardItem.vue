@@ -20,7 +20,7 @@ import AddToCard from "./AddToCard.vue";
 
 export default {
   name: "CardItem",
-  props: ["image", "name", "category", "description"],
+  props: ["image" , "name", "category", "description"],
   computed: {
     formatCategories() {
       if (this.category) {
